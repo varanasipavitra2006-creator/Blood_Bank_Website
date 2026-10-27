@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>forms</title>
+	</head>
+	<body background="8blood.jpg">
+		<marquee  behavior="alternate" >
+			<h2><font color="red"><B>Blood Receiver Form</B></font></h2>
+		</MARQUEE>
+		<p style="background-image: url('8blood.jpg');"></p>
+		<p>
+			<h3><label><font color="blue">Name</font>&nbsp;
+				<input type="text" placeholder="enter name" name="name" required></h3>
+			</label> 
+		</p>
+
+		<p>
+			<h3><label><font color="blue">Mobile Number </font>&nbsp;
+				<input type="tel" placeholder="enter mobile number" name="phone_number"></h3>
+			</label>
+		</p>
+
+		<p>
+			<h3><label><font color="blue">Email</font>&nbsp;
+				<input type="email" placeholder="enter mail id"  name="email_address"></h3>
+			</label>
+		</p>
+
+
+		<p>
+			<h3><label><font color="blue">Date of birth</font>&nbsp;
+				<input type="datetime-local" name="DOB" required></h3>
+			</label>
+		</p>
+        
+
+
+		<p>
+			<h3><label><font color="blue">City</font>&nbsp;
+				<select id="state" name="state">
+					<option value="city" selected="selected">Select One</option>
+					<option value="city" >vijayawada</option>
+					<option value="city" >Hyderabad</option>
+					<option value="city" >Visakaptnam</option></h3>
+				</select>
+			</label> 
+		</p>
+
+		<fieldset>
+			<h3><legend><font color="blue">Gender</font></legend>
+			<p><label> <input type="radio" name="gender" value="male"> male </label></p>
+			<p><label> <input type="radio" name="gender" value="female"> female </label></p></h3>
+		</fieldset>
+		
+		<fieldset>
+			<h3><legend><font color="blue">Blood Group You Want</font></legend>
+			<p><label> <input type="radio" name="text" value="O Positive"> O Positive </label></p>
+			<p><label> <input type="radio" name="text" value="O Negative"> O Negative </label></p>
+			<p><label> <input type="radio" name="text" value="A Positive"> A Positive </label></p>
+			<p><label> <input type="radio" name="text" value="A Negative"> A Negative </label></p>
+            <p><label> <input type="radio" name="text" value="AB positive"> AB positive </label></p>
+            <p><label> <input type="radio" name="text" value="AB positive"> AB Negative </label></p>
+            <p><label> <input type="radio" name="text" value="B positive"> B positive </label></p>
+            <p><label> <input type="radio" name="text" value="B Negative"> B Negative </label></p></h3>
+		</fieldset>
+		
+        <a href="side3.html" class="btn">SUBMIT</a>
+		</form>
+	</body>
+</html>
